@@ -14,8 +14,8 @@ namespace Test
             //string namepattern = "^[A-Z]{1}[a-z]{2,}$";
            //string namepattern = "^[A-Z]{1}[a-z]{2,}$";
             //string namepattern = "^[w]{3}[.][a-z]{5,}[.][a-z]{2,}$";
-            string namepattern = "^[0-9a-zA-Z]+[.-_]{0,2}[0-9a-zA_z]+[@][a-zA-Z]+[.][a-zA-Z]{2,3}([.][a-zA-Z]{2,3}){0,1}$";
-            //string namepattern = "^[0-9]{2}[ ][0-9]{10}$";
+            //string namepattern = "^[0-9a-zA-Z]+[.-_]{0,2}[0-9a-zA_z]+[@][a-zA-Z]+[.][a-zA-Z]{2,3}([.][a-zA-Z]{2,3}){0,1}$";
+            string namepattern = "^[0-9]{2}[ ][0-9]{10}$";
             //string namepattern = "^[0-9a-zA-z]{8,}$";
             //string namepattern = "^[A-Z]{1}[0-9a-z]{7,}$";
             //string namepattern = "^[0-9]{1}[A-Za-z0-9]{7,}$";
