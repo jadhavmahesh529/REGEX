@@ -18,9 +18,9 @@ namespace Test
             //string namepattern = "^[0-9]{2}[ ][0-9]{10}$";
             //string namepattern = "^[0-9a-zA-z]{8,}$";
            //string namepattern = "^[A-Z]{1}[0-9a-z]{7,}$";
-            string namepattern = "^[A-Z]{1,}[A-Za-z0-9]{6,}[0-9]{1,}$";
+            //string namepattern = "^[A-Z]{1,}[A-Za-z0-9]{6,}[0-9]{1,}$";
             //string namepattern = "^[0-9]{1,}[@-_#]{1,}[A-Za-z0-9]{6,}$";
-            //string namepattern = "^[A-Z]{1,}[A-Za-z0-9]{5,}[@!$^*#]{1}[0-9]{1,}$";
+            string namepattern = "^[A-Z]{1,}[A-Za-z0-9]{5,}[@!$^*#]{1}[0-9]{1,}$";
             Regex regex = new Regex(namepattern); 
            
 
